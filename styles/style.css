@@ -1,118 +1,12 @@
-@font-face {
-    font-family: 'digit';
-    src: url('/fonts/ds-digi-webfont.woff2') format('woff2'),
-         url('/fonts/ds-digi-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+
+.container {
+    margin-top: 70px;
 
 }
-
-body{
-    background-image: linear-gradient(to top, rgb(219, 219, 219), black);
-    background-attachment: fixed;
+.clear {
+    margin-left: 92px;
 }
-
-.container{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-50%) translateY(-50%);
+.left {
+    margin-left: 55px;
+    margin-top: 2px;
 }
-
-.bg-calculator{
-    background-image: linear-gradient(to bottom, rgb(109, 7, 7), rgb(59, 1, 1));
-    border-radius: 20px;
-    height: 30rem;
-    width: 20rem;
-    box-shadow: 5px 5px rgb(31, 0, 0);
-    justify-content: center;
-    align-items: center;
-}
-
-.box-input{
-    background-color: rgb(75, 9, 9);
-    height: 120px;
-    width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: 5px 0 rgba(0, 0, 0, 0.418);
-    
-}
-
-.input-number{
-    font-family: digit;
-    font-size: 50px;
-    background-color: rgb(149, 255, 149);
-    height: 5rem;
-    width: 305px;
-    font-weight: 300px;
-    border-radius: 5px;
-    position: absolute;
-    top: 5%;
-    left: 1.9%;
-    border: none;
-}
-
-.box-buttons{
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
-.box-buttons button{
-    color: rgb(0, 0, 0);
-    font-family: digit;
-    font-size: 50px;
-}
-
-
-.button-number{
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 100%;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.button-number:hover{
-    background: lightblue;
-}
-
-.button-operation{
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 100%;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.button-operation:hover{
-    background: lightblue;
-}
-
-.equal{
-    grid-column: 1 / 4;
-    background-color: white;
-    height: 50px;
-    width: 99.5%;
-    border-radius: 10px;
-    border: none;
-    cursor: pointer;
-}
-
-.equal:hover{
-    background: lightgreen;
-}
-
-.clear{
-    background-color: rgb(255, 255, 255);
-    height: 60px;
-    width: 100%;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.clear:hover{
-    background: rgb(243, 142, 142);
-}
-
-
