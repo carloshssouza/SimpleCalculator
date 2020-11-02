@@ -43,5 +43,10 @@ function valueOperationFunc(){
     inputs.value += this.value
 }
 
+function justInputNumber(inputs){
+    var num = /[^0-9\.]|/gi
+    inputs.value = inputs.value.replace(num, "")
+}
+
 
 
